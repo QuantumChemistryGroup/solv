@@ -1,0 +1,1782 @@
+name water H2O
+param   0.7867240905761719   0.8464584350585938   0.8967399597167969
+den 997.0
+elements O H
+index 1 2
+eps 78.36
+diff 2.27e-9 // ref 25 in https://pubs.acs.org/doi/pdf/10.1021/j100295a058 
+vis 0.89
+rsolv 1.661
+
+name water_hb H2O_HB
+param   0.7447872161865234   0.7695674896240234   0.7776851654052734
+den 997.0
+elements O H
+index 1 2
+eps 78.36
+diff 2.27e-9 // ref 25 in https://pubs.acs.org/doi/pdf/10.1021/j100295a058 
+vis 0.89
+rsolv 1.661
+
+name Acetonitrile MeCN CH3CN
+param   0.8453235626220703   0.9299182891845703   0.9681835174560547
+den 777.07 // https://link.springer.com/article/10.1007/s10953-012-9881-9
+elements C H N
+index 2 3 1
+eps 35.688
+rsolv 2.212
+diff 4.39e-9 // https://www.sciencedirect.com/science/article/pii/002223649190252O?via%3Dihub
+vis 0.390 // https://materials.springer.com/googlecdn/assets/sm_lbs/603/sm_lbs_978-3-540-48513-1_3/sm_lbs_978-3-540-48513-1_3.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_3&componentId=Download%20Chapter 
+
+name Methanol MeOH CH3OH
+param   0.8567256927490234   0.9057254791259766   0.9219608306884766
+den 785.300 // Domanska (2008) 
+elements C H O
+index 1 4 1
+eps 32.613
+rsolv 2.059
+diff 23.2e-10 // https://www.journal.csj.jp/doi/epdf/10.1246/bcsj.59.3771
+vis 0.505 // https://materials.springer.com/googlecdn/assets/sm_lbs/602/sm_lbs_978-3-540-48513-1_2/sm_lbs_978-3-540-48513-1_2.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_2&componentId=Download%20Chapter
+
+name Ethanol EtOH
+param   0.894256591796875   0.9636707305908203   0.9947795867919922
+den 785.08 // https://www.sciencedirect.com/science/article/pii/S016773222101463X?via%3Dihub 
+elements C H O
+index 2 6 1
+eps 24.852
+rsolv 2.331
+diff 1.01e-9 // file:///home/minenky/Downloads/169583a0.pdf
+vis 1.007 // https://materials.springer.com/googlecdn/assets/sm_lbs/603/sm_lbs_978-3-540-48513-1_3/sm_lbs_978-3-540-48513-1_3.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_3&componentId=Download%20Chapter
+
+name IsoQuinoline
+den ..
+elements C H N
+index 9 7 1
+eps 11.00
+diff ..
+vis ..
+
+name Quinoline
+den ..
+elements C H N
+index 9 7 1
+eps 9.16
+diff ..
+vis ..
+
+name chloroform trichloromethane
+param   0.8716259002685547   0.9532299041748047   0.9881973266601562
+den 1479.5 // https://www.sciencedirect.com/science/article/pii/S002196140190953X?via%3Dihub
+elements C H Cl
+index 1 1 3
+eps 4.7113
+rsolv 2.555
+diff 2.83e-9 //  https://reader.elsevier.com/reader/sd/pii/0022236475900839?token=0925BBCD26AF4D1C71AEABC60231B399868EAFB2F0A5BA0E0F5816E8573D53C61CD2A1735131B1B2F1F73AF57C289763&originRegion=eu-west-1&originCreation=20221129105345
+vis 0.545 // https://materials.springer.com/googlecdn/assets/sm_lbs/602/sm_lbs_978-3-540-48513-1_2/sm_lbs_978-3-540-48513-1_2.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_2&componentId=Download%20Chapter
+
+name DiethylEther
+param   0.9112529754638672   0.9940319061279297   1.024993896484375
+den 707.64 // https://www.sciencedirect.com/science/article/pii/S0021961496900154?via%3Dihub
+elements C H O
+index 4 10 1
+eps 4.24
+rsolv 2.746
+diff 5.01e-9 // https://www.journal.csj.jp/doi/epdf/10.1246/bcsj.52.2079
+vis 0.235 // https://materials.springer.com/googlecdn/assets/sm_lbs/605/sm_lbs_978-3-540-48513-1_5/sm_lbs_978-3-540-48513-1_5.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_5&componentId=Download%20Chapter
+
+name Dichloromethane methylenechloride dichloromethane
+param   0.858858585357666   0.9361400604248047   0.9702663421630859
+den 1323.0 // https://pubs.acs.org/doi/10.1021/je0503397
+elements C H Cl
+index 1 2 2
+eps 8.93
+rsolv 2.374
+diff 36.5e-10 // https://pubs.acs.org/doi/pdf/10.1021/ja00258a005
+vis 0.413
+
+name DiChloroEthane
+param   0.9053249359130859   0.9833240509033203   1.0171966552734375
+param 1.0 1.0 1.0 1.0
+den 1168 // Bulletin de la Societe Chimique de France, 1969, p. 3369
+elements C H Cl
+index 2 4 2
+eps 10.125
+rsolv 2.589
+diff 3.3e-9 // https://www.tandfonline.com/doi/pdf/10.1080/00268977100101871?needAccess=true
+vis 0.7833 // https://materials.springer.com/googlecdn/assets/sm_lbs/603/sm_lbs_978-3-540-48513-1_3/sm_lbs_978-3-540-48513-1_3.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_3&componentId=Download%20Chapter
+
+
+name CarbonTetraChloride carbontet tetrachloromethane CCl4
+param   0.876312255859375   0.9637107849121094   0.998504638671875
+den 1584.3 // https://pubs.acs.org/doi/10.1021/je800885h
+elements C Cl
+index 1 4
+eps 2.2280
+rsolv 2.714
+diff 1.3e-9 // https://onlinelibrary.wiley.com/doi/epdf/10.1002/bbpc.19860901013
+vis 0.9079 
+
+name Benzene
+param   0.8564319610595703   0.9440875053405762   0.9816818237304688
+den 873.612 // https://www.sciencedirect.com/science/article/pii/S0167732218332975?via%3Dihub
+elements C H
+index 6 6
+eps 2.2706
+rsolv 2.702
+diff 2.31e-9 // https://pubs.rsc.org/en/content/articlelanding/1998/P2/a800382c
+vis 0.607 // https://materials.springer.com/googlecdn/assets/sm_lbs/607/sm_lbs_978-3-540-48513-1_7/sm_lbs_978-3-540-48513-1_7.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_7&componentId=Download%20Chapter
+
+name Toluene
+param   0.8829612731933594   0.9646453857421875   0.9971294403076172
+den 862.01 // https://pubs.acs.org/doi/10.1021/acs.jced.1c00747
+elements C H
+index 7 8
+eps 2.3741
+rsolv 2.873
+diff 2.83e-9 // https://www.journal.csj.jp/doi/epdf/10.1246/bcsj.52.2079
+vis 0.5549
+
+name ChloroBenzene PhCl
+param   0.8983154296875   0.9725360870361328   1.0031108856201172
+den 1100.86 // https://www.sciencedirect.com/science/article/pii/S0045653506011817?via%3Dihub
+elements C H Cl
+index 6 5 1
+eps 5.6968
+rsolv 2.844 
+diff 1.736e-9 // https://aiche.onlinelibrary.wiley.com/doi/epdf/10.1002/aic.690190619
+vis 0.756 // https://materials.springer.com/googlecdn/assets/sm_lbs/607/sm_lbs_978-3-540-48513-1_7/sm_lbs_978-3-540-48513-1_7.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_7&componentId=Download%20Chapter
+
+
+name NitroMethane MeNO2
+param   0.8734416961669922   0.9427757263183594   0.9747490882873535
+den 1131.17 // https://www.sciencedirect.com/science/article/pii/S0167732215001683?via%3Dihub
+elements C H N O
+index 1 3 1 2
+eps 36.562
+rsolv 2.302
+diff 2.61e-9 // excel, Price et al. (2000) J.Chem.Phys. 113, 3686-3689
+vis 0.616
+
+name Heptane
+param   0.9328022003173828   1.0136184692382812   1.042938232421875
+den 679.6 // https://www.sciencedirect.com/science/article/pii/S0167732218323286?via%3Dihub
+elements C H
+index 7 16
+eps 1.9113
+rsolv 3.127
+diff 3.13e-9 // https://aiche.onlinelibrary.wiley.com/doi/epdf/10.1002/aic.690190619
+vis 0.3889
+
+name CycloHexane
+param   0.9184093475341797   0.9891185760498047   1.0175304412841797
+den 774.0 // https://link.springer.com/article/10.1134/S003602442210017X
+elements C H
+index 6 12
+eps 2.0165
+rsolv 2.881
+diff 1.39e-9 // https://onlinelibrary.wiley.com/doi/epdf/10.1002/bbpc.19860901013
+vis 0.8987 // https://materials.springer.com/googlecdn/assets/sm_lbs/607/sm_lbs_978-3-540-48513-1_7/sm_lbs_978-3-540-48513-1_7.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_7&componentId=Download%20Chapter
+
+name Aniline
+param   0.8884620666503906   0.9512939453125   0.9773693084716797
+den 1017.5 // https://www.sciencedirect.com/science/article/pii/S0167732213003085?via%3Dihub
+elements C H N
+index 6 7 1
+eps 6.8882
+rsolv 2.821
+diff 0.27e-9 // https://onlinelibrary.wiley.com/doi/epdf/10.1002/bbpc.19800841107
+vis 3.694 // https://materials.springer.com/googlecdn/assets/sm_lbs/607/sm_lbs_978-3-540-48513-1_7/sm_lbs_978-3-540-48513-1_7.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_7&componentId=Download%20Chapter
+
+name Acetone Me2CO
+den 784.553 // https://link.springer.com/article/10.1007/s10953-012-9881-9
+elements C H O
+index 3 6 1
+eps 20.493
+diff 4.65e-9 // https://aiche.onlinelibrary.wiley.com/doi/epdf/10.1002/aic.690190619 
+vis 0.312
+
+name TetraHydroFuran THF
+param   0.89874267578125   0.9701061248779297   1.00042724609375
+den 882.172 // https://www.sciencedirect.com/science/article/pii/S0167732220349564?via%3Dihub
+elements C H O
+index 4 8 1
+eps 7.4257
+rsolv 2.633
+diff 2.32e-9 // https://www.journal.csj.jp/doi/epdf/10.1246/bcsj.52.2079
+vis 0.4630
+
+name DiMethylSulfoxide DMSO
+param   0.9090099334716797   0.9681134223937988   0.9949665069580078
+den 1095.6 // https://www.sciencedirect.com/science/article/pii/S0167732218303842?via%3Dihub
+elements C H S O
+index 2 6 1 1
+eps 46.826
+rsolv 2.568
+diff 0.73e-9 // https://reader.elsevier.com/reader/sd/pii/002223649190252O?token=D37158731806F8B2C9F61C6CF22BB123BBAF78AED8FF0BDE92B20B0FA8E2053628F8A92A0D22458A0E81F0012588CF84&originRegion=eu-west-1&originCreation=20221129115027
+vis 1.996
+
+name Argon
+den ..
+elements Ar
+index 1
+eps 1.430
+diff ..
+vis ..
+
+name Krypton
+den ..
+elements Kr
+index 1
+eps 1.519
+diff ..
+vis ..
+
+name Xenon
+den ..
+elements Xe
+index 1
+eps 1.706
+diff ..
+vis ..
+
+name n-Octanol octanol 1-octanol
+param   0.94915771484375   1.0112419128417969   1.03759765625
+den  821.59 // Heintz (1986)
+elements C H O
+index 8 18 1
+eps 9.8629
+rsolv 3.318
+diff 0.138e-9 // https://www.tandfonline.com/doi/pdf/10.1080/08927022.2013.769680?needAccess=true
+vis  7.368 
+
+name 1,1,1-TriChloroEthane
+den ..
+elements C H Cl
+index 2 3 3
+eps 7.0826
+diff 2.9e-9 // https://www.tandfonline.com/doi/pdf/10.1080/00268977100101871?needAccess=true
+vis ..
+
+name 1,1,2-TriChloroEthane
+den ..
+elements ..
+index ..
+eps 7.1937
+diff 1.9e-9 // https://www.tandfonline.com/doi/pdf/10.1080/00268977100101871?needAccess=true
+vis ..
+
+name 1,2,4-TriMethylBenzene trimethylbenzene
+param   0.9060993194580078   0.98590087890625   1.017730712890625
+den 871.71 // https://pubs.acs.org/doi/10.1021/je800046k
+elements C H
+index 9 12
+eps 2.3653
+rsolv 3.160
+diff 1.61e-9 // https://materials.springer.com/googlecdn/assets/sm_lbs/620/sm_lbs_978-3-540-73735-3_206/sm_lbs_978-3-540-73735-3_206.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-73735-3_206&componentId=Download%20Chapter (for 1,3,5) or 1.73 MD https://pubs.acs.org/doi/suppl/10.1021/acs.jpcb.1c07092/suppl_file/jp1c07092_si_001.pdf
+vis 0.912
+
+name 1,2-DiBromoEthane 1,2-dibromo-ethane 1_2-DiBromoEthane 1_2-dibromo-ethane dibromoethane
+param   0.8870067596435547   0.9613075256347656   0.99359130859375
+den 2167.4 // https://pubs.acs.org/doi/abs/10.1021/je00013a003
+elements C H Br
+index 2 4 2
+eps 4.9313
+rsolv 2.687
+diff 0.78e-9 // excel, Kempka et al. (1988)
+vis 1.60 // https://materials.springer.com/googlecdn/assets/sm_lbs/603/sm_lbs_978-3-540-48513-1_3/sm_lbs_978-3-540-48513-1_3.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_3&componentId=Download%20Chapter
+
+name 1,2-EthaneDiol
+den ..
+elements ..
+index ..
+eps 40.245
+diff ..
+vis ..
+
+name 1,4-Dioxane
+den ..
+elements ..
+index ..
+eps 2.2099
+diff ..
+vis ..
+
+name 1-Bromo-2-MethylPropane
+den ..
+elements ..
+index ..
+eps 7.7792
+diff ..
+vis ..
+
+name 1-BromoOctane bromooctane 1-bromo-octane
+param   0.9639110565185547   1.0289325714111328   1.0557823181152344
+den 1107.7 // https://pubs.rsc.org/en/content/articlelanding/1950/JR/jr9500000075
+elements C H Br
+index 8 17 1
+eps 5.0244
+diff 1.0
+rsolv 3.387
+vis 1.490 // https://materials.springer.com/googlecdn/assets/sm_lbs/609/sm_lbs_978-3-540-48513-1_9/sm_lbs_978-3-540-48513-1_9.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_9&componentId=Download%20Chapter
+
+name 1-BromoPentane
+den ..
+elements ..
+index ..
+eps 6.269
+diff ..
+vis ..
+
+name 1-BromoPropane
+den ..
+elements ..
+index ..
+eps 8.0496
+diff ..
+vis ..
+
+name 1-Butanol butan-1-ol butanol
+param   0.9064731597900391   0.9754600524902344   1.0024566650390625
+den 807.83 // https://pubs.acs.org/doi/10.1021/acs.jced.1c00747
+elements C H O
+index 4 10 1
+eps 17.332
+rsolv 2.742
+diff 0.504e-9 // https://www.nature.com/articles/169583a0
+vis 2.624 // https://materials.springer.com/googlecdn/assets/sm_lbs/605/sm_lbs_978-3-540-48513-1_5/sm_lbs_978-3-540-48513-1_5.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_5&componentId=Download%20Chapter
+
+name 1-ChloroHexane 1-chloro-hexane chlorohexane
+param   0.949371337890625   1.0181713104248047   1.0461559295654297
+den 873.1 // https://pubs.acs.org/doi/10.1021/je7003758
+elements C H Cl
+index 6 13 1
+eps 5.9491
+rsolv 3.104
+diff 1.0
+vis 0.6888 // https://materials.springer.com/googlecdn/assets/sm_lbs/607/sm_lbs_978-3-540-48513-1_7/sm_lbs_978-3-540-48513-1_7.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_7&componentId=Download%20Chapter
+
+name 1-ChloroPentane
+den ..
+elements ..
+index ..
+eps 6.5022
+diff ..
+vis ..
+
+name 1-ChloroPropane
+den ..
+elements ..
+index ..
+eps 8.3548
+diff ..
+vis ..
+
+name 1-Decanol decanol
+param   0.9457530975341797   1.0132312774658203   1.03717041015625
+den 825.998 // https://www.sciencedirect.com/science/article/pii/S0167732218321846?via%3Dihub
+elements C H O
+index 10 22 1
+eps 7.5305
+rsolv 3.543
+diff 0.069e-9 // MD https://pubs.acs.org/doi/pdf/10.1021/acsomega.8b03132
+vis 11.567 // https://materials.springer.com/googlecdn/assets/sm_lbs/680/sm_lbs_978-3-540-48513-1_11/sm_lbs_978-3-540-48513-1_11.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_11&componentId=Download%20Chapter
+
+name 1-FluoroOctane fluoroctane fluorooctane
+param   0.9597454071044922   1.027130126953125   1.0537962913513184
+den 813.7 // Journal of Physical Chemistry 64 254
+elements C H F
+index 8 17 1
+eps 3.89
+rsolv 3.292
+diff 1.0
+vis 1.131 // as for chlorine, no data
+
+name 1-Heptanol heptanol
+param   0.9323749542236328   0.9976067543029785   1.0215492248535156
+den 818.75 // https://pubs.acs.org/doi/10.1021/acs.jced.9b00590
+elements C H O
+index 7 16 1
+eps 11.321
+rsolv 3.192
+diff 1.72e-10 // https://www.journal.csj.jp/doi/epdf/10.1246/bcsj.59.3771
+vis 5.937
+
+name 1-Hexanol hexanol
+param   0.9261131286621094   0.9912147521972656   1.0147533416748047
+den 815.16 // https://pubs.acs.org/doi/10.1021/acs.jced.1c00752
+elements C H O
+index 6 14 1
+eps 12.51
+rsolv 3.057
+diff 1.72e-10 // https://www.journal.csj.jp/doi/epdf/10.1246/bcsj.59.3771
+vis 4.274
+
+name 1-Hexene
+den ..
+elements ..
+index ..
+eps 2.0717
+diff ..
+vis ..
+
+name 1-Hexyne
+den ..
+elements ..
+index ..
+eps 2.615
+diff ..
+vis ..
+
+name 1-IodoButane
+den ..
+elements ..
+index ..
+eps 6.173
+diff ..
+vis ..
+
+name 1-IodoHexaDecane hexadecyliodide
+param   0.9820289611816406   1.0452880859375   1.0643539428710938
+den 1122 // https://pubs.rsc.org/en/content/articlelanding/1950/JR/jr9500000075
+elements C H I
+index 16 33 1
+eps 3.5338
+rsolv 4.163
+diff 1.0
+vis 7.27
+
+name 1-IodoPentane
+den ..
+elements ..
+index ..
+eps 5.6973
+diff ..
+vis ..
+
+name 1-IodoPropane
+den ..
+elements ..
+index ..
+eps 6.9626
+diff ..
+vis ..
+
+name 1-NitroPropane
+den ..
+elements ..
+index ..
+eps 23.73
+diff ..
+vis ..
+
+name 1-Nonanol nonanol 
+param   0.9466209411621094   1.0128173828125   1.0362625122070312
+den 823.84 // https://www.sciencedirect.com/science/article/pii/S0167732218321846?via%3Dihub
+elements C H O
+index 9 20 1
+eps 8.5991
+rsolv 3.432
+diff 0.089e-9 // MD https://pubs.acs.org/doi/pdf/10.1021/acsomega.8b03132
+vis 9.51
+
+name 1-Pentanol pentanol pentan-1-ol 
+param   0.9158191680908203   0.98248291015625   1.00811767578125
+den 810.93 // https://pubs.acs.org/doi/10.1021/je301095j
+elements C H O
+index 5 12 1
+eps 15.13
+rsolv 2.909
+diff 2.96e-10 // https://www.journal.csj.jp/doi/epdf/10.1246/bcsj.59.3771
+vis 3.555
+
+name 1-Pentene
+den ..
+elements ..
+index ..
+eps 1.9905
+diff ..
+vis ..
+
+name 1-Propanol propanol propan-1-ol
+param   0.9055919647216797   0.97393798828125   1.0046863555908203
+den 799.68 // https://pubs.acs.org/doi/10.1021/acs.jced.1c00752
+elements C H O
+index 3 8 1
+eps 20.524
+diff 5.52e-10 // https://www.journal.csj.jp/doi/epdf/10.1246/bcsj.59.3771
+vis 1.743
+rsolv 2.554
+
+name 2,2,2-TriFluoroEthanol
+den ..
+elements ..
+index ..
+eps 26.726
+diff ..
+vis ..
+
+name 2,2,4-TriMethylPentane isooctane iso-octane
+param   0.9493179321289062   1.0264892578125   1.05255126953125
+den 687.77 // https://pubs.acs.org/doi/10.1021/acs.jced.1c00747
+elements C H
+index 8 18
+eps 1.9358
+rsolv 3.252
+diff 2.28e-9 // excel, Birkett and Lyons (1965)
+vis 0.473
+
+name 2,4-DiMethylPentane
+den ..
+elements ..
+index ..
+eps 1.8939
+diff ..
+vis ..
+
+name 2,4-DiMethylPyridine 2_4-DiMethylPyridine
+den ..
+elements C H N
+index 7 9 1
+eps 9.4176
+diff ..
+vis 0.841 // https://materials.springer.com/googlecdn/assets/sm_lbs/608/sm_lbs_978-3-540-48513-1_8/sm_lbs_978-3-540-48513-1_8.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_8&componentId=Download%20Chapter
+
+name 2,6-DiMethylPyridine dimethylpyridine 2,6-Lutidine dimethylpyridine
+param   0.9128551483154297   0.9862346649169922   1.0148968696594238
+den 918.02 // https://pubs.rsc.org/en/content/articlelanding/1993/FT/FT9938903049 
+elements C H N
+index 7 9 1
+eps 7.1735
+rsolv 2.982
+diff 1.0
+vis 0.865 // https://materials.springer.com/googlecdn/assets/sm_lbs/608/sm_lbs_978-3-540-48513-1_8/sm_lbs_978-3-540-48513-1_8.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_8&componentId=Download%20Chapter
+
+name 2-BromoPropane
+den ..
+elements ..
+index ..
+eps 9.361
+diff ..
+vis ..
+
+name 2-Butanol secbutanol sec-butanol
+param   0.9080753326416016   0.9769687652587891   1.0059947967529297
+den 802.71 // https://pubs.acs.org/doi/10.1021/acs.jced.1c00747
+elements C H O
+index 4 10 1
+eps 15.944
+rsolv 2.740
+diff 1.0
+vis 3.115
+
+name 2-ChloroButane
+den ..
+elements ..
+index ..
+eps 8.393
+diff ..
+vis ..
+
+name 2-Heptanone
+den ..
+elements ..
+index ..
+eps 11.658
+diff ..
+vis ..
+
+name 2-Hexanone
+den ..
+elements ..
+index ..
+eps 14.136
+diff ..
+vis ..
+
+name 2-MethoxyEthanol methoxyethanol
+param   0.9077281951904297   0.974578857421875   1.0030040740966797
+den 934.0 // http://www.orientjchem.org/vol37no3/time-domain-reflectometric-studies-on-methylcellosolve-acetylacetone-binary-solutions/
+elements C H O
+index 3 8 2
+eps 17.2
+rsolv 2.655
+diff 1.0
+vis 1.532
+
+name 2-Methyl-1-Propanol isobutanol
+param   0.915191650390625   0.9822425842285156   1.0098133087158203
+den 804.67 // https://pubs.acs.org/doi/10.1021/acs.jced.9b01052
+elements C H O
+index 4 10 1
+eps 16.777
+rsolv 2.739
+diff 1.0
+vis 3.3973
+
+name 2-Methyl-2-Propanol
+den ..
+elements C H O
+index 4 10 1
+eps 12.47
+diff ..
+vis 4.4638
+
+name 2-MethylPentane
+den ..
+elements ..
+index ..
+eps 1.89
+diff ..
+vis ..
+
+name 2-MethylPyridine 2methylpyridine 2-picoline alpha-picoline
+param   0.8997974395751953   0.97393798828125   1.0030975341796875
+den 939.802 // https://pubs.acs.org/doi/10.1021/je4004965
+elements C H N
+index 6 7 1
+eps 9.9533
+rsolv 2.826
+diff 2.2e-9 // https://link.springer.com/content/pdf/10.1007/BF00744554.pdf
+vis 0.756 // https://materials.springer.com/googlecdn/assets/sm_lbs/607/sm_lbs_978-3-540-48513-1_7/sm_lbs_978-3-540-48513-1_7.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_7&componentId=Download%20Chapter
+
+name 2-NitroPropane
+den ..
+elements ..
+index ..
+eps 25.654
+diff ..
+vis ..
+
+name 2-Octanone
+den ..
+elements ..
+index ..
+eps 9.4678
+diff ..
+vis ..
+
+name 2-Pentanone
+den ..
+elements ..
+index ..
+eps 15.2
+diff ..
+vis ..
+
+name 2-Propanol isopropanol
+param   0.9098377227783203   0.9806537628173828   1.0117626190185547
+den 780.74 // https://www.sciencedirect.com/science/article/pii/S0167732218323286?via%3Dihub
+elements C H O
+index 3 8 1
+eps 19.264
+rsolv 2.553
+diff 0.649e-9 // file:///home/minenky/Downloads/169583a0.pdf
+vis 2.098
+
+name 2-Propen-1-ol
+den ..
+elements ..
+index ..
+eps 19.011
+diff ..
+vis ..
+
+name 3-MethylPyridine
+den ..
+elements ..
+index ..
+eps 11.645
+diff ..
+vis ..
+
+name 3-Pentanone
+den ..
+elements ..
+index ..
+eps 16.78
+diff ..
+vis ..
+
+name 4-Heptanone
+den ..
+elements ..
+index ..
+eps 12.257
+diff ..
+vis ..
+
+name 4-Methyl-2-Pentanone 4methyl2pentanone 4-methylpentan-2-one
+param   0.9359264373779297   1.004058837890625   1.0277442932128906
+den 796.13 // https://pubs.acs.org/doi/10.1021/acs.jced.9b01070
+elements C H O
+index 6 12 1
+eps 12.887
+rsolv 3.006
+
+diff 4.4e-9 // https://aiche.onlinelibrary.wiley.com/doi/epdf/10.1002/aic.690190347
+vis 0.588 // https://materials.springer.com/googlecdn/assets/sm_lbs/607/sm_lbs_978-3-540-48513-1_7/sm_lbs_978-3-540-48513-1_7.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_7&componentId=Download%20Chapter
+
+name 4-MethylPyridine
+den ..
+elements ..
+index ..
+eps 11.957
+diff ..
+vis ..
+
+name 5-Nonanone
+den ..
+elements ..
+index ..
+eps 10.6
+diff ..
+vis ..
+
+name AceticAcid ethanoicacid ethanoic-acid ethanoic_acid
+param   0.8564319610595703   0.92864990234375   0.9621753692626953
+den 1043.9 // https://pubs.acs.org/doi/10.1021/je900332x
+elements C H O
+index 2 4 2
+eps 6.2528
+diff 0.99e-9 // https://onlinelibrary.wiley.com/doi/epdf/10.1002/bbpc.19860901013
+vis 1.1310
+rsolv 2.362
+
+name AcetoPhenone 1-phenylethanone
+param   0.912841796875   0.9755134582519531   1.0009479522705078
+den 1023.3 // https://pubs.acs.org/doi/10.1021/je9005823
+elements C H O
+index 8 8 1
+eps 17.44
+diff 1.0
+rsolv 3.044
+vis 1.6439 // https://materials.springer.com/googlecdn/assets/sm_lbs/609/sm_lbs_978-3-540-48513-1_9/sm_lbs_978-3-540-48513-1_9.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_9&componentId=Download%20Chapter
+
+name a-ChloroToluene
+den ..
+elements ..
+index ..
+eps 6.7175
+diff ..
+vis ..
+
+name Anisole methoxybenzene
+param   0.8991832733154297   0.9707469940185547   0.998504638671875
+den 989.42 // https://pubs.acs.org/doi/10.1021/je400776b
+elements C H O
+index 7 8 1
+eps 4.2247
+diff 1.0
+rsolv 2.949
+vis 0.9785 // https://materials.springer.com/googlecdn/assets/sm_lbs/608/sm_lbs_978-3-540-48513-1_8/sm_lbs_978-3-540-48513-1_8.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_8&componentId=Download%20Chapter
+
+name Benzaldehyde
+den ..
+elements ..
+index ..
+eps 18.22
+diff ..
+vis ..
+
+name BenzoNitrile PhCN
+param   0.8973674774169922   0.9689979553222656   0.9975166320800781
+den 1000.69 // https://pubs.acs.org/doi/10.1021/je100145f
+elements C H N
+index 7 5 1
+eps 25.592
+rsolv 2.877
+diff 0.65e-9 // MD https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/61ba26fbf52bc42eadc21dca/original/simulation-investigation-of-bulk-and-surface-properties-of-liquid-benzonitrile-ring-stacking-assessment-and-deconvolution.pdf  
+vis 1.220 // https://materials.springer.com/googlecdn/assets/sm_lbs/608/sm_lbs_978-3-540-48513-1_8/sm_lbs_978-3-540-48513-1_8.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_8&componentId=Download%20Chapter
+
+name BenzylAlcohol phenylmethanol
+param   0.9030017852783203   0.9645886421203613   0.9888916015625
+den 1041.56 // https://www.sciencedirect.com/science/article/pii/S0040603114000355?via%3Dihub
+elements C H O
+index 7 8 1
+eps 12.457
+diff 1.0
+rsolv 2.948
+vis 4.92891 // https://materials.springer.com/googlecdn/assets/sm_lbs/608/sm_lbs_978-3-540-48513-1_8/sm_lbs_978-3-540-48513-1_8.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_8&componentId=Download%20Chapter
+
+name BromoBenzene PhBr
+param   0.8987560272216797   0.9719219207763672   1.001535415649414
+den 1488.38 // https://link.springer.com/article/10.1007/BF02767922
+elements C H Br
+index 6 5 1
+eps 5.3954
+rsolv 2.885
+diff 1.30e-9 // formula https://aiche.onlinelibrary.wiley.com/doi/epdf/10.1002/aic.690190619
+vis 1.0715 // https://materials.springer.com/googlecdn/assets/sm_lbs/607/sm_lbs_978-3-540-48513-1_7/sm_lbs_978-3-540-48513-1_7.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_7&componentId=Download%20Chapter
+
+name BromoEthane
+param   0.8812389373779297   0.9656467437744141   1.0006542205810547
+den 1450.38 // https://linkinghub.elsevier.com/retrieve/pii/S0021961484710822
+elements C H Br
+index 2 5 1
+eps 9.01
+rsolv 2.469
+diff 3.8e-9 // https://materials.springer.com/googlecdn/assets/sm_lbs/111/sm_lbs_978-3-540-73735-3_61/sm_lbs_978-3-540-73735-3_61.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-73735-3_61&componentId=Download%20Chapter
+vis 0.3985 // https://materials.springer.com/googlecdn/assets/sm_lbs/603/sm_lbs_978-3-540-48513-1_3/sm_lbs_978-3-540-48513-1_3.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_3&componentId=Download%20Chapter
+
+name Bromoform Tribromomethane CH3Br
+param   0.8803310394287109   0.9534435272216797   0.9850063323974609
+den 2875.1 // https://pubs.acs.org/doi/abs/10.1021/je00019a014
+elements C H Br
+index 1 1 3
+eps 4.2488
+rsolv 2.703
+diff 0.78e-9 // https://www.sciencedirect.com/science/article/pii/0022236475900839?via%3Dihub
+vis 1.9578 // https://materials.springer.com/googlecdn/assets/sm_lbs/602/sm_lbs_978-3-540-48513-1_2/sm_lbs_978-3-540-48513-1_2.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_2&componentId=Download%20Chapter
+
+name Butanal
+den ..
+elements ..
+index ..
+eps 13.45
+diff ..
+vis ..
+
+name ButanoicAcid
+den ..
+elements ..
+index ..
+eps 2.9931
+diff ..
+vis ..
+
+name Butanone butan-2-one
+param   0.9100513458251953   0.9845924377441406   1.01495361328125
+den 799.7 // https://www.sciencedirect.com/science/article/pii/S016773221530996X?via%3Dihub
+elements C H O
+index 4 8 1
+eps 18.246
+rsolv 2.679
+diff 3.58e-9 // https://pubs.acs.org/doi/pdf/10.1021/ma00043a016
+vis 0.3855 // https://materials.springer.com/googlecdn/assets/sm_lbs/605/sm_lbs_978-3-540-48513-1_5/sm_lbs_978-3-540-48513-1_5.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_5&componentId=Download%20Chapter
+
+name ButanoNitrile
+den ..
+elements ..
+index ..
+eps 24.291
+diff ..
+vis ..
+
+name ButylAmine
+den ..
+elements ..
+index ..
+eps 4.6178
+diff ..
+vis ..
+
+name ButylEthanoate 1-Acetoxybutane Butylacetate
+param   0.91668701171875   0.99359130859375   1.0208282470703125
+den 876.14 // https://www.sciencedirect.com/science/article/pii/S016773222103004X?via%3Dihub
+elements C H O
+index 6 12 2
+eps 4.9941
+rsolv 3.077
+diff 1.0
+vis 0.675 // https://materials.springer.com/googlecdn/assets/sm_lbs/607/sm_lbs_978-3-540-48513-1_7/sm_lbs_978-3-540-48513-1_7.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_7&componentId=Download%20Chapter
+
+name CarbonDiSulfide disulfidocarbon methanedithione
+param   0.8589687347412109   0.9389305114746094   0.9741115570068359
+den 1257 // https://www.sciencedirect.com/science/article/pii/0301010492871689?via%3Dihub
+elements C S
+index 1 2
+eps 2.6105
+rsolv 2.316
+diff 4.23e-9 // https://materials.springer.com/googlecdn/assets/sm_lbs/023/sm_lbs_978-3-540-73735-3_36/sm_lbs_978-3-540-73735-3_36.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-73735-3_36&componentId=Download%20Chapter
+vis 0.36 // https://pubs.acs.org/doi/pdf/10.1021/ja00749a033
+
+name Cis-1,2-DiMethylCycloHexane
+den ..
+elements ..
+index ..
+eps 2.06
+diff ..
+vis ..
+
+name Acetoxyethane ethylacetate ethyl_acetate
+param   0.885711669921875   0.967742919921875   1.0005340576171875
+den 894.54 // https://www.sciencedirect.com/science/article/pii/S016773222103110X?via%3Dihub
+elements C H O
+index 4 8 2
+eps 6.02
+rsolv 2.768
+diff 1.0
+vis 0.457
+
+name Cis-Decalin
+den 892.79 // https://link.springer.com/article/10.1007/BF00972749
+elements C H
+index 10 18
+eps 2.2139
+diff 0.41e-9 // excel, Fischer and Weiss (1986)
+vis 3.000 // https://materials.springer.com/googlecdn/assets/sm_lbs/680/sm_lbs_978-3-540-48513-1_11/sm_lbs_978-3-540-48513-1_11.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_11&componentId=Download%20Chapter
+
+name CycloHexanone 
+param   0.9161663055419922   0.97906494140625   1.00341796875
+den 942.47 // https://pubs.acs.org/doi/10.1021/acs.jced.9b01100
+elements C H O
+index 6 10 1
+eps 15.619
+rsolv 2.906
+diff 0.89e-9 // excel , Claessens et al. (1984)
+vis 2.229 // https://materials.springer.com/googlecdn/assets/sm_lbs/607/sm_lbs_978-3-540-48513-1_7/sm_lbs_978-3-540-48513-1_7.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_7&componentId=Download%20Chapter
+
+name CycloPentane
+den ..
+elements ..
+index ..
+eps 1.9608
+diff 3.23e-9 // https://onlinelibrary.wiley.com/doi/epdf/10.1002/bbpc.19860901013
+vis ..
+
+name CycloPentanol
+den ..
+elements ..
+index ..
+eps 16.989
+diff ..
+vis ..
+
+name CycloPentanone
+den ..
+elements ..
+index ..
+eps 13.58
+diff ..
+vis ..
+
+name Decalin-mixture decalin
+param   0.9463939666748047   1.0051836967468262   1.0280780792236328
+den 876.72 // https://pubs.acs.org/doi/10.1021/je4008926
+elements C H
+index 10 18
+eps 2.196
+rsolv 3.334
+diff 0.545e-9 // average
+vis 2.374 // https://materials.springer.com/googlecdn/assets/sm_lbs/680/sm_lbs_978-3-540-48513-1_11/sm_lbs_978-3-540-48513-1_11.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_11&componentId=Download%20Chapter
+
+name DiBromomEthane
+den ..
+elements ..
+index ..
+eps 7.2273
+diff ..
+vis ..
+
+name DiButylEther 1-butoxy-butane
+param   0.9552993774414062   1.0277042388916016   1.052764892578125
+den 764.06 // https://www.sciencedirect.com/science/article/pii/S0167732220300581?via%3Dihub
+elements C H O
+index 8 18 1
+eps 3.0473
+rsolv 3.319
+diff 2.72e-9 // https://www.journal.csj.jp/doi/epdf/10.1246/bcsj.52.2079
+vis 0.647 // https://materials.springer.com/googlecdn/assets/sm_lbs/609/sm_lbs_978-3-540-48513-1_9/sm_lbs_978-3-540-48513-1_9.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_9&componentId=Download%20Chapter
+
+name DiEthylAmine
+den ..
+elements ..
+index ..
+eps 3.5766
+diff ..
+vis ..
+
+name DiEthylSulfide
+den ..
+elements ..
+index ..
+eps 5.723
+diff ..
+vis ..
+
+name DiIodoMethane
+den ..
+elements ..
+index ..
+eps 5.32
+diff ..
+vis ..
+
+name DiIsoPropylEther 2-isopropoxy-propane
+param   0.9334831237792969   1.0147266387939453   1.0434589385986328
+den 718.252 // https://www.sciencedirect.com/science/article/pii/S0167732220321863?via%3Dihub
+elements C H O
+index 6 14 1
+eps 3.38
+rsolv 3.058
+diff 1.0
+vis 0.379 // https://materials.springer.com/googlecdn/assets/sm_lbs/607/sm_lbs_978-3-540-48513-1_7/sm_lbs_978-3-540-48513-1_7.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_7&componentId=Download%20Chapter
+
+name DiMethylDiSulfide
+den ..
+elements ..
+index ..
+eps 9.6
+diff ..
+vis ..
+
+name DiPhenylEther phenylether 
+param   0.92181396484375   0.9889183044433594   1.0132312774658203
+den 1067.1 // https://www.sciencedirect.com/science/article/pii/S0022286021014125?via%3Dihub
+elements C H O
+index 12 10 1
+eps 3.73
+rsolv 3.380
+diff 1.0
+vis 2.633
+
+name DiPropylAmine
+den ..
+elements ..
+index ..
+eps 2.9112
+diff ..
+vis ..
+
+name e-1,2-DiChloroEthene
+den ..
+elements ..
+index ..
+eps 2.14
+diff ..
+vis ..
+
+name e-2-Pentene
+den ..
+elements ..
+index ..
+eps 2.051
+diff ..
+vis ..
+
+name EthaneThiol
+den ..
+elements ..
+index ..
+eps 6.667
+diff ..
+vis ..
+
+name EthylBenzene
+param   0.9014530181884766   0.9796924591064453   1.0102806091308594
+den 862.57 // https://pubs.acs.org/doi/10.1021/je301220s
+elements C H
+index 8 10
+eps 2.4339
+rsolv 3.025
+diff 1.98e-9 // https://materials.springer.com/googlecdn/assets/sm_lbs/910/sm_lbs_978-3-540-73735-3_189/sm_lbs_978-3-540-73735-3_189.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-73735-3_189&componentId=Download%20Chapter
+vis 0.6342
+
+name EthylEthanoate
+den ..
+elements ..
+index ..
+eps 5.9867
+diff ..
+vis ..
+
+name EthylMethanoate
+den ..
+elements ..
+index ..
+eps 8.331
+diff ..
+vis ..
+
+name EthylPhenylEther ethoxybenzene
+param   0.9128551483154297   0.9826564788818359   1.010040283203125
+den 963.84 // https://www.sciencedirect.com/science/article/pii/S016773221400275X?via%3Dihub
+elements C H O
+index 8 10 1
+eps 4.1797
+rsolv 3.094
+diff 1.0
+vis 1.158
+
+name FluoroBenzene
+param   0.8863391876220703   0.9650192260742188   0.9956340789794922
+den 1017.8 // https://link.springer.com/article/10.1007/s10953-018-0752-x
+elements C H F
+index 6 5 1
+eps 5.42
+rsolv 2.752
+diff 2.47e-9 // https://aiche.onlinelibrary.wiley.com/doi/epdf/10.1002/aic.690190619
+vis 0.5821
+
+name Formamide
+den ..
+elements ..
+index ..
+eps 108.94
+diff ..
+vis ..
+
+name FormicAcid
+den ..
+elements ..
+index ..
+eps 51.1
+diff ..
+vis ..
+
+name HexanoicAcid
+den ..
+elements ..
+index ..
+eps 2.6
+diff ..
+vis ..
+
+name IodoBenzene PhI
+param   0.9119873046875   0.98291015625   1.0111217498779297
+den 1820.1 // https://pubs.rsc.org/en/content/articlelanding/1988/F1/f19888403511
+elements C H I
+index 6 5 1
+eps 4.547
+rsolv 2.945
+diff 9.61e-10 // https://aiche.onlinelibrary.wiley.com/doi/epdf/10.1002/aic.690190619
+vis 1.459
+
+name IodoEthane
+den ..
+elements ..
+index ..
+eps 7.6177
+diff ..
+vis ..
+
+name IodoMethane
+den ..
+elements ..
+index ..
+eps 6.865
+diff 3.51e-9 // https://reader.elsevier.com/reader/sd/pii/0022236475900839?token=0925BBCD26AF4D1C71AEABC60231B399868EAFB2F0A5BA0E0F5816E8573D53C61CD2A1735131B1B2F1F73AF57C289763&originRegion=eu-west-1&originCreation=20221129105345
+vis ..
+
+name IsoPropylBenzene cumene
+param   0.9127216339111328   0.9906806945800781   1.0219097137451172
+den 857.1 // https://pubs.acs.org/doi/10.1021/je049899g
+elements C H
+index 9 12
+eps 2.3712
+rsolv 3.162
+diff 1.0
+vis 0.731
+
+name m-Cresol mcresol 3-methyl-phenol 3-methylphenol
+param   0.896392822265625   0.9623756408691406   0.9888916015625
+den 1030.3 // https://pubs.acs.org/doi/abs/10.1021/je00062a005
+elements C H O
+index 7 8 1
+eps 12.44
+rsolv 2.948
+diff 1.0
+vis 13.194 
+
+name Mesitylene 1,3,5-trimethyl-benzene
+param   0.9003982543945312   0.9820690155029297   1.013031005859375
+den 861.12 // https://pubs.acs.org/doi/10.1021/je800046k
+elements C H
+index 9 12
+eps 2.265
+rsolv 3.161
+diff 1.58e-9 // https://onlinelibrary.wiley.com/doi/epdf/10.1002/bbpc.19860901013
+vis 0.6595
+
+name MethylBenzoate
+den ..
+elements ..
+index ..
+eps 6.7367
+diff ..
+vis ..
+
+name MethylButanoate
+den ..
+elements ..
+index ..
+eps 5.5607
+diff ..
+vis ..
+
+name MethylCycloHexane
+den ..
+elements ..
+index ..
+eps 2.024
+diff ..
+vis ..
+
+name MethylEthanoate
+den ..
+elements ..
+index ..
+eps 6.8615
+diff ..
+vis ..
+
+name MethylMethanoate
+den ..
+elements ..
+index ..
+eps 8.8377
+diff ..
+vis ..
+
+name MethylPropanoate
+den ..
+elements ..
+index ..
+eps 6.0777
+diff ..
+vis ..
+
+name m-Xylene
+den 860.05 // https://www.sciencedirect.com/science/article/pii/S0167732214003699?via%3Dihub
+elements C H
+index 8 10
+eps 2.3478
+rsolv 3.023
+diff 2.56e-9 // https://link.springer.com/content/pdf/10.1007/BF00743282.pdf?pdf=button
+vis 0.580
+
+name n-ButylBenzene butylbenzene 1-butylbenzene
+param   0.9142303466796875   0.9947929382324219   1.0258617401123047
+den 856.29 // https://pubs.acs.org/doi/10.1021/je7002447
+elements C H
+index 10 14
+eps 2.36
+rsolv 3.289
+diff 1.0
+vis 0.960 // https://materials.springer.com/googlecdn/assets/sm_lbs/680/sm_lbs_978-3-540-48513-1_11/sm_lbs_978-3-540-48513-1_11.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_11&componentId=Download%20Chapter
+
+name n-Decane decane
+param   0.956634521484375   1.0303478240966797   1.0569305419921875
+den 726.232 // https://link.springer.com/article/10.1007/s10953-021-01093-4
+elements C H
+index 10 22
+eps 1.9846
+rsolv 3.488
+diff 1.38e-9 // https://aiche.onlinelibrary.wiley.com/doi/epdf/10.1002/aic.690190619
+vis 0.8703 // https://materials.springer.com/googlecdn/assets/sm_lbs/680/sm_lbs_978-3-540-48513-1_11/sm_lbs_978-3-540-48513-1_11.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_11&componentId=Download%20Chapter
+
+name n-Dodecane dodecane
+param   0.955352783203125   1.0379314422607422   1.0680389404296875
+den 738.457 // https://link.springer.com/article/10.1007/s10953-021-01093-4
+elements C H
+index 12 26
+eps 2.006
+rsolv 3.694
+diff 1.38e-9 // https://aiche.onlinelibrary.wiley.com/doi/epdf/10.1002/aic.690190619
+vis 1.360
+
+name n-Hexadecane hexadecane
+param   0.978424072265625   1.0451278686523438   1.06707763671875
+den 769.8 // https://www.sciencedirect.com/science/article/pii/S0167732220340034?via%3Dihub
+elements C H
+index 16 34
+eps 2.0402
+rsolv 4.046
+diff 4.22e-10 // https://aiche.onlinelibrary.wiley.com/doi/epdf/10.1002/aic.690190619
+vis 3.061
+
+name n-Hexane hexane
+param   0.928863525390625   1.011749267578125   1.0435924530029297
+den 655.206 // https://www.sciencedirect.com/science/article/pii/S0167732220351990?via%3Dihub
+elements C H
+index 6 14
+eps 1.8819
+rsolv 2.983
+diff 4.26e-9 // https://reader.elsevier.com/reader/sd/pii/002223649190252O?token=D37158731806F8B2C9F61C6CF22BB123BBAF78AED8FF0BDE92B20B0FA8E2053628F8A92A0D22458A0E81F0012588CF84&originRegion=eu-west-1&originCreation=20221129115027
+vis 0.2987
+
+name NitroBenzene PhNO2
+param   0.9064064025878906   0.9649791717529297   0.9882373809814453
+den 1198.91 // https://pubs.acs.org/doi/10.1021/je900542y
+elements C H N O
+index 6 5 1 2
+eps 34.809
+rsolv 2.927
+diff 1.081e-9 // https://onlinelibrary.wiley.com/doi/epdf/10.1002/bbpc.19800841107
+vis 1.8112 
+
+name NitroEthane
+param   0.8938159942626953   0.9637775421142578   0.9936180114746094
+den 1044.4 // https://www.sciencedirect.com/science/article/pii/S0167732216315525?via%3Dihub
+elements C H N O
+index 2 5 1 2
+eps 28.29
+rsolv 2.527
+diff 1.0
+vis 0.661
+
+name n-MethylAniline
+den ..
+elements ..
+index ..
+eps 5.96
+diff ..
+vis ..
+
+name n-MethylFormamide-mixture methylformamide
+param   0.878662109375   0.9420948028564453   0.9725360870361328
+den 999.4 // https://www.sciencedirect.com/science/article/pii/S0167732213003887?via%3Dihub
+elements C H N O
+index 2 5 1 1
+eps 181.56
+rsolv 2.414
+diff 0.848e-9 // https://pubs.acs.org/doi/pdf/10.1021/j100295a058
+vis 1.65
+
+name n,n-DiMethylAcetamide DMA dimethylacetamide
+param   0.91455078125   0.9778766632080078   1.0042591094970703
+den 937.067 // https://link.springer.com/article/10.1007/s10953-020-00991-3
+elements C H N O
+index 4 9 1 1
+eps 37.781
+rsolv 2.799
+diff 1.37e-9 // https://materials.springer.com/googlecdn/assets/sm_lbs/688/sm_lbs_978-3-540-73735-3_114/sm_lbs_978-3-540-73735-3_114.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-73735-3_114&componentId=Download%20Chapter
+vis 0.919 // https://materials.springer.com/googlecdn/assets/sm_lbs/605/sm_lbs_978-3-540-48513-1_5/sm_lbs_978-3-540-48513-1_5.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_5&componentId=Download%20Chapter
+
+name n,n-DiMethylFormamide DMF dimethylformamide
+param   0.9002246856689453   0.9650592803955078   0.9934310913085938
+den 944.5 // https://www.orientjchem.org/vol38no1/thermodynamic-and-acoustical-study-of-1-4-fluorophenyl-3-napthalen-1-yl-2-propen-1-one/
+elements C H N O
+index 3 7 1 1
+eps 37.219
+rsolv 2.624
+diff 1.63e-9 // https://reader.elsevier.com/reader/sd/pii/002223649190252O?token=D37158731806F8B2C9F61C6CF22BB123BBAF78AED8FF0BDE92B20B0FA8E2053628F8A92A0D22458A0E81F0012588CF84&originRegion=eu-west-1&originCreation=20221129115027 
+vis 0.8025 // https://materials.springer.com/googlecdn/assets/sm_lbs/604/sm_lbs_978-3-540-48513-1_4/sm_lbs_978-3-540-48513-1_4.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_4&componentId=Download%20Chapter 
+
+name n-Nonane nonane
+param   0.9500255584716797   1.027984619140625   1.057037353515625
+den 714.51 // https://www.sciencedirect.com/science/article/pii/S0167732220300581?via%3Dihub
+elements C H
+index 9 20
+eps 1.9605
+rsolv 3.376
+diff 1.72e-9 // https://aiche.onlinelibrary.wiley.com/doi/epdf/10.1002/aic.690190619
+vis 0.6600
+
+name n-Octane octane
+param   0.94744873046875   1.0252876281738281   1.0538330078125
+den 694.67 // https://www.sciencedirect.com/science/article/pii/S0167732218332975?via%3Dihub
+elements C H
+index 8 18
+eps 1.9406
+rsolv 3.256
+diff 2.36e-9 // https://www.degruyter.com/document/doi/10.1524/zpch.1996.193.Part_1_2.019/html
+vis 0.5195
+
+name n-Pentadecane pentadecane
+param   0.9645519256591797   1.0439529418945312   1.0742340087890625
+den 765.45 // https://www.sciencedirect.com/science/article/pii/0021961486900716?via%3Dihub 
+elements C H
+index 15 32
+eps 2.0333
+rsolv 3.963
+diff 0.46e-9 // excel, Tofts et al. (2000)
+vis 2.534
+
+name n-Pentane pentane
+param   0.919677734375   1.009012222290039   1.0444202423095703
+den 621.14 // https://www.sciencedirect.com/science/article/pii/S0021961405001564?via%3Dihub
+elements C H
+index 5 12
+eps 1.8371
+rsolv 2.828
+diff 5.75e-9 // excel, Douglass and McCall (1958)
+vis 0.2141
+
+name n-Undecane undecane
+param   0.9299716949462891   0.9981141090393066   1.022430419921875
+den 736.61 // https://www.sciencedirect.com/science/article/pii/S0167732220300581?via%3Dihub
+elements C H
+index 11 24
+eps 1.991
+rsolv 3.694
+diff 1.11e-9 // excel, Tofts et al. (2000)
+vis 1.081
+
+name o-ChloroToluene
+den ..
+elements ..
+index ..
+eps 4.6331
+diff ..
+vis ..
+
+name o-Cresol
+den ..
+elements ..
+index ..
+eps 6.76
+diff ..
+vis ..
+
+name o-DiChloroBenzene odichlorobenzene 1,2-dichloro-benzene
+param   0.916259765625   0.9836311340332031   1.0116424560546875
+den 1303.0 // https://www.degruyter.com/document/doi/10.2478/s11696-013-0400-2/html
+elements C H Cl
+index 6 4 2
+eps 9.9949
+rsolv 2.971
+diff 1.0
+vis 1.2204
+
+name o-NitroToluene onitrotoluene 2-nitrotoluene
+param   0.9161396026611328   0.9721088409423828   0.9957275390625
+den 1155.7 // Journal of the Indian Chemical Society 84 59  
+elements C H N O
+index 7 7 1 2
+eps 25.669
+rsolv 3.071
+diff 1.0
+vis 2.0887
+
+name o-Xylene
+den 875.73 // https://pubs.acs.org/doi/10.1021/acs.jced.1c00747
+elements C H
+index 8 10
+eps 2.5454
+rsolv 3.023
+diff 0.58e-9 // questionable https://www.tandfonline.com/doi/abs/10.1080/00268977100102281
+vis 0.758
+
+name Pentanal
+den ..
+elements ..
+index ..
+eps 10.0
+diff ..
+vis ..
+
+name PentanoicAcid
+den ..
+elements ..
+index ..
+eps 2.6924
+diff ..
+vis ..
+
+name PentylAmine
+den ..
+elements ..
+index ..
+eps 4.201
+diff ..
+vis ..
+
+name PentylEthanoate
+den ..
+elements ..
+index ..
+eps 4.7297
+diff ..
+vis ..
+
+name PerFluoroBenzene Hexafluorobenzene 
+param   0.885498046875   0.9677295684814453   1.0015621185302734
+den 1604.27 // https://link.springer.com/article/10.1007/BF00648145
+elements C F
+index 6 6
+eps 2.029
+rsolv 2.976
+diff 1.52e-9 // https://onlinelibrary.wiley.com/doi/epdf/10.1002/bbpc.19860901013
+vis 0.868
+
+name p-IsoPropylToluene p-cymene isopropyltoluene
+param   0.9201984405517578   0.995513916015625   1.0259552001953125
+den 873.0 // https://www.sciencedirect.com/science/article/pii/S0021961473800114?via%3Dihub
+elements C H
+index 10 14
+eps 2.2322
+rsolv 3.289
+diff 1.0
+vis 0.826
+
+name Propanal
+den ..
+elements ..
+index ..
+eps 18.5
+diff ..
+vis ..
+
+name PropanoicAcid
+den ..
+elements ..
+index ..
+eps 3.44
+diff ..
+vis ..
+
+name PropanoNitrile
+den ..
+elements ..
+index ..
+eps 29.324
+diff ..
+vis ..
+
+name PropylAmine
+den ..
+elements ..
+index ..
+eps 4.9912
+diff ..
+vis ..
+
+name PropylEthanoate
+den ..
+elements ..
+index ..
+eps 5.5205
+diff ..
+vis ..
+
+name p-Xylene
+den 856.63 // https://www.sciencedirect.com/science/article/pii/S0167732214003699?via%3Dihub
+elements C H
+index 8 10
+eps 2.2705
+rsolv 3.024
+diff 2.75e-9 // https://link.springer.com/content/pdf/10.1007/BF00743282.pdf?pdf=button
+vis 0.6050
+
+name Pyridine
+param   0.8838958740234375   0.95599365234375   0.9851531982421875
+den 978.249 // https://pubs.acs.org/doi/10.1021/je4004965
+elements C H N
+index 5 5 1
+eps 12.978
+diff 25.8e-10 // https://www.tandfonline.com/doi/abs/10.1080/00268977100102281
+vis 0.882
+rsolv 2.650
+
+name sec-ButylBenzene secbutylbenzene 2-phenyl-butane
+param   0.9300251007080078   1.006195068359375   1.03631591796875
+den 844.4 // https://pubs.acs.org/doi/10.1021/je900689m
+elements C H
+index 10 14
+eps 2.3446
+rsolv 3.289
+diff 1.0
+vis 0.846
+
+name tert-ButylBenzene tbutylbenzene 
+param   0.919891357421875   0.9964885711669922   1.0264892578125
+den 867.0 // wiki
+elements C H
+index 10 14
+eps 2.3447
+rsolv 3.284
+diff 1.0
+vis 0.846
+
+name TetraChloroEthene Tetrachloroethylene 1,1,2,2-tetrachloro-ethene
+param   0.8865795135498047   0.96453857421875   0.9963951110839844
+den 1612.73 // https://www.sciencedirect.com/science/article/pii/S1386142514007227?via%3Dihub
+elements C Cl
+index 2 4
+eps 2.268
+rsolv 2.817
+diff 1.0
+vis 0.846
+
+name TetraHydroThiophene-s,s-dioxide tetrahydrothiophenedioxide sulfolane
+param   0.96966552734375   1.0251541137695312   1.0495071411132812
+den 1264.5 // https://www.sciencedirect.com/science/article/pii/S1386142520301670?via%3Dihub
+elements C H S O
+index 4 8 2 1
+eps 43.962
+rsolv 2.884
+diff 1.0
+vis 10.3
+
+name Tetralin
+param   0.9205322265625   0.9865283966064453   1.0135650634765625
+den 964.95 // https://pubs.acs.org/doi/10.1021/je300899n
+elements C H
+index 10 12
+eps 2.771
+rsolv 3.205
+diff 1.0
+vis 1.968
+
+name Thiophene
+den ..
+elements ..
+index ..
+eps 2.727
+diff 0.498e-9 // https://www.tandfonline.com/doi/abs/10.1080/00268977100102281
+vis ..
+
+name Thiophenol
+den ..
+elements ..
+index ..
+eps 4.2728
+diff ..
+vis ..
+
+name trans-Decalin
+den 865.86 // https://link.springer.com/article/10.1007/BF00972749
+elements C H
+index 10 18
+eps 2.1781
+diff 0.68e-9 // Fischer and Weiss (1986)
+vis 1.932 // https://materials.springer.com/googlecdn/assets/sm_lbs/680/sm_lbs_978-3-540-48513-1_11/sm_lbs_978-3-540-48513-1_11.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-48513-1_11&componentId=Download%20Chapter
+
+name TriButylPhosphate TBP
+param   0.9722423553466797   1.0362625122070312   1.0567169189453125
+den 972.67 // https://pubs.acs.org/doi/10.1021/acs.jced.5b00343
+elements C H O P
+index 12 27 4 1
+eps 8.1781
+rsolv 3.982
+diff 4e-9 // https://link.springer.com/content/pdf/10.1007/BF00744607.pdf?pdf=button
+vis 3.35 // average from here https://onlinelibrary.wiley.com/doi/epdf/10.1002/ceat.270150511
+
+name TriChloroEthene
+den ..
+elements ..
+index ..
+eps 3.422
+diff ..
+vis ..
+
+name TriEthylAmine
+param   0.9270343780517578   1.0088386535644531   1.0384654998779297
+den 723.8 // https://link.springer.com/article/10.1007/s10953-021-01136-w
+elements C H N
+index 6 15 1
+eps 2.3832
+rsolv 3.091
+diff 2.84e-9 // from the plot in https://link.springer.com/content/pdf/10.1007/BF00743741.pdf?pdf=button
+vis 0.363
+
+name Xylene-mixture xylene
+param   0.8994369506835938   0.97821044921875   1.008544921875
+den 864.13 // averaged over meta and para, orto - unreliable.
+elements C H
+index 8 10
+eps 2.3879
+rsolv 3.023
+diff 2.66e-9  
+vis 0.648
+
+name z-1,2-DiChloroEthene
+den ..
+elements ..
+index ..
+eps 9.2
+diff ..
+vis ..
+
+name Dimethoxyethane glyme monoglyme DME
+param   0.9421749114990234   1.0095462799072266   1.0392398834228516
+den 861.25 // Senger (1994) 
+elements C H O 
+index 4 10 2 
+eps 7.54 // https://materials.springer.com/googlecdn/assets/sm_lbs/613/sm_lbs_978-3-540-75506-7_126/sm_lbs_978-3-540-75506-7_126.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-75506-7_126&componentId=Download%20Chapter
+diff 1e-9 // incorrect
+vis 1.0 // incorrect
+rsolv 2.827
+
+name gamma-Butyrolactone GBL
+param   0.8749637603759766   0.9339237213134766   0.9561405181884766
+den 1130 // wiki
+elements C H O 
+index 4 6 2 
+eps 41.70 // https://materials.springer.com/googlecdn/assets/sm_lbs/546/sm_lbs_978-3-540-75506-7_101/sm_lbs_978-3-540-75506-7_101.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-75506-7_101&componentId=Download%20Chapter
+diff 1e-9 // incorrect
+vis 1.0 // incorrect
+rsolv 2.655
+
+name Dimethyl_Carbonate DMC DimethylCarbonate
+param 0.9082889556884766 0.9690647125244141 0.9952335357666016
+den 1063.5 // https://materials.springer.com/interactive?systemId=1173&propertyId=Mass%20Density
+elements C H O
+index 3 6 3
+eps  3.134  //  Rivas (2008)
+diff 1e-9 // incorrect
+vis 1.0 // incorrect
+rsolv 2.67439
+
+name Diethyl_Carbonate DEC DiethylCarbonate
+param 0.9232425689697266 0.9967555999755859 1.0289859771728516
+den  969.0 // https://materials.springer.com/interactive?systemId=5873&propertyId=Mass%20Density
+elements C H O
+index 5 10 3
+eps 2.834 // Rivas (2008)
+diff 1e-9 // incorrect
+vis 1.0 // incorrect
+rsolv 3.0013
+
+name Ethyl_methyl_Carbonate EMC EthylmethylCarbonate
+param 0.9208126068115234 0.9880504608154297 1.0176639556884766
+den 1006 // https://www.sigmaaldrich.com/SA/en/product/aldrich/754935
+elements C H O
+index 4 8 3
+eps  2.985 
+diff 1e-9 // incorrect
+vis 1.0 // incorrect
+rsolv 2.84500
+
+name Vinylene_Carbonate VC VinyleneCarbonate
+param 0.8976078033447266 0.9385433197021484 0.9532833099365234
+den 1350 // wiki
+elements C H O
+index 3 2 3
+eps 126 // https://iopscience.iop.org/article/10.1149/2.0541606jes
+diff 1e-9 // incorrect
+vis 1.0 // incorrect
+rsolv 2.48343
+
+name Ethylene_Carbonate EC EthyleneCarbonate
+param 0.8817996978759766 0.9302120208740234 0.9479694366455078
+den 1320 // wiki
+elements C H O
+index 3 4 3
+eps 92.8 // https://materials.springer.com/interactive?systemId=16219&propertyId=Dielectric%20Constant
+diff 1e-9 // incorrect
+vis 1.0 // incorrect
+rsolv 2.55761
+
+name Propylene_Carbonate PC PropyleneCarbonate
+param 0.9120807647705078 0.9650325775146484 0.9866085052490234
+den  1199.2 // https://materials.springer.com/interactive?systemId=6714&propertyId=Mass%20Density
+elements C H O
+index 4 6 3
+eps 65.5 // https://materials.springer.com/googlecdn/assets/sm_lbs/548/sm_lbs_978-3-540-75506-7_103/sm_lbs_978-3-540-75506-7_103.pdf?trackRequired=true&originUrl=/lb/docs/sm_lbs_978-3-540-75506-7_103&componentId=Download%20Chapter
+diff 1e-9 // incorrect
+vis 1.0 // incorrect
+rsolv 2.74482
+
+name 1_2_Butylene_Carbonate BC 12ButyleneCarbonate
+param 0.9281558990478516 0.9872493743896484 1.0123233795166016
+den 1107 // https://www.chemsrc.com/en/cas/4437-85-8_123837.html
+elements C H O
+index 5 8 3
+eps 56.1 // https://pubs.acs.org/doi/10.1021/je050341y
+diff 1e-9 // incorrect
+vis 1.0 // incorrect
+rsolv 2.91012
+
+name Triflic_Acid trifluoromethanesulfonic_acid TFMS TFSA HOTf TfOH
+param 0.9851131439208984 1.0234050750732422 1.0449810028076172
+den 1696  // AMGE (chemport)
+elements S C H O F  
+index 1 1 1 3 3
+eps 77.4 // https://arxiv.org/pdf/physics/9706028.pdf
+diff 1e-9 // incorrect
+vis 1e-9 // incorrect
+rsolv 2.70156
+
+
